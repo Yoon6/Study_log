@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a3fd75a-ba55-426f-8cac-e7b6c1d426c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/androidTest/java/com/example/doitexample1/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/java/com/example/doitexample1/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/app/src/test/java/com/example/doitexample1/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidDoit/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFM/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ha4NiKzPTO9qCzgohIBK9fO8jI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/practice1" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a3fd75a-ba55-426f-8cac-e7b6c1d426c7" name="Default Changelist" comment="" />
+      <created>1600235831012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600235831012</updated>
+      <workItem from="1600235834832" duration="153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="1147" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600235898412">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state x="223" y="1147" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1600235898412" />
+    <state x="549" y="1247" key="FileChooserDialogImpl" timestamp="1600235986997">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state x="549" y="1247" key="FileChooserDialogImpl/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1600235986997" />
+  </component>
+</project>
