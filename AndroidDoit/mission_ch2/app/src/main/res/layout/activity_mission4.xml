@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_message"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:singleLine="false"
+        android:maxLength="80"
+        android:gravity="top"
+        android:textSize="36sp"
+        android:hint="입력상자"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txt_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0/80 바이트"
+        android:gravity="right"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전송"/>
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="닫기"/>
+    </LinearLayout>
+
+</LinearLayout>
