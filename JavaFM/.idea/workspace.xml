@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c503267-f287-4d27-bf59-b6be642d2c6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AndroidDoit/dotiMission_chapter3/app/src/main/res/drawable/btn_fill_orange.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidDoit/dotiMission_chapter3/app/src/main/res/drawable/btn_outline_orange.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidDoit/dotiMission_chapter3/app/src/main/res/layout/progress.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidDoit/SampleProgress/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidDoit/SampleProgress/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +227,7 @@
       <workItem from="1601209024007" duration="3000" />
       <workItem from="1601296341099" duration="5000" />
       <workItem from="1601726673957" duration="1066000" />
-      <workItem from="1601813440914" duration="577000" />
+      <workItem from="1601813440914" duration="639000" />
     </task>
     <servers />
   </component>
