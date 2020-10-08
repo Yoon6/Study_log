@@ -142,32 +142,32 @@ C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-main.obj: main.c.obj
+palindrome.obj: palindrome.c.obj
 
-.PHONY : main.obj
+.PHONY : palindrome.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/main.c.obj
-.PHONY : main.c.obj
+palindrome.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/palindrome.c.obj
+.PHONY : palindrome.c.obj
 
-main.i: main.c.i
+palindrome.i: palindrome.c.i
 
-.PHONY : main.i
+.PHONY : palindrome.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/main.c.i
-.PHONY : main.c.i
+palindrome.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/palindrome.c.i
+.PHONY : palindrome.c.i
 
-main.s: main.c.s
+palindrome.s: palindrome.c.s
 
-.PHONY : main.s
+.PHONY : palindrome.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/main.c.s
-.PHONY : main.c.s
+palindrome.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/palindrome.c.s
+.PHONY : palindrome.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... palindrome.obj
+	@echo ... palindrome.i
+	@echo ... palindrome.s
 .PHONY : help
 
 
