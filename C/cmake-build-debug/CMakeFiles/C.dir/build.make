@@ -76,27 +76,27 @@ include CMakeFiles/C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C.dir/flags.make
 
-CMakeFiles/C.dir/palindrome.c.obj: CMakeFiles/C.dir/flags.make
-CMakeFiles/C.dir/palindrome.c.obj: ../palindrome.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Yoon\Study_log\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C.dir/palindrome.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C.dir\palindrome.c.obj   -c C:\Users\Yoon\Study_log\C\palindrome.c
+CMakeFiles/C.dir/fibonacci.c.obj: CMakeFiles/C.dir/flags.make
+CMakeFiles/C.dir/fibonacci.c.obj: ../fibonacci.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Yoon\Study_log\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C.dir/fibonacci.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C.dir\fibonacci.c.obj   -c C:\Users\Yoon\Study_log\C\fibonacci.c
 
-CMakeFiles/C.dir/palindrome.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C.dir/palindrome.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Yoon\Study_log\C\palindrome.c > CMakeFiles\C.dir\palindrome.c.i
+CMakeFiles/C.dir/fibonacci.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C.dir/fibonacci.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Yoon\Study_log\C\fibonacci.c > CMakeFiles\C.dir\fibonacci.c.i
 
-CMakeFiles/C.dir/palindrome.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C.dir/palindrome.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Yoon\Study_log\C\palindrome.c -o CMakeFiles\C.dir\palindrome.c.s
+CMakeFiles/C.dir/fibonacci.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C.dir/fibonacci.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Yoon\Study_log\C\fibonacci.c -o CMakeFiles\C.dir\fibonacci.c.s
 
 # Object files for target C
 C_OBJECTS = \
-"CMakeFiles/C.dir/palindrome.c.obj"
+"CMakeFiles/C.dir/fibonacci.c.obj"
 
 # External object files for target C
 C_EXTERNAL_OBJECTS =
 
-C.exe: CMakeFiles/C.dir/palindrome.c.obj
+C.exe: CMakeFiles/C.dir/fibonacci.c.obj
 C.exe: CMakeFiles/C.dir/build.make
 C.exe: CMakeFiles/C.dir/linklibs.rsp
 C.exe: CMakeFiles/C.dir/objects1.rsp

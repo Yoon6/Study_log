@@ -11,4 +11,7 @@ add_executable(C
         #compressAlphabet.c
         #remove_repeat.c
         #maze.c
-        palindrome.c)
+        #palindrome.c
+        #circular_queue_8.c
+        #stack_to_queue.c
+        fibonacci.c)

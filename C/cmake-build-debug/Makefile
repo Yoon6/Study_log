@@ -142,32 +142,32 @@ C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-palindrome.obj: palindrome.c.obj
+fibonacci.obj: fibonacci.c.obj
 
-.PHONY : palindrome.obj
+.PHONY : fibonacci.obj
 
 # target to build an object file
-palindrome.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/palindrome.c.obj
-.PHONY : palindrome.c.obj
+fibonacci.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/fibonacci.c.obj
+.PHONY : fibonacci.c.obj
 
-palindrome.i: palindrome.c.i
+fibonacci.i: fibonacci.c.i
 
-.PHONY : palindrome.i
+.PHONY : fibonacci.i
 
 # target to preprocess a source file
-palindrome.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/palindrome.c.i
-.PHONY : palindrome.c.i
+fibonacci.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/fibonacci.c.i
+.PHONY : fibonacci.c.i
 
-palindrome.s: palindrome.c.s
+fibonacci.s: fibonacci.c.s
 
-.PHONY : palindrome.s
+.PHONY : fibonacci.s
 
 # target to generate assembly for a file
-palindrome.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/palindrome.c.s
-.PHONY : palindrome.c.s
+fibonacci.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/fibonacci.c.s
+.PHONY : fibonacci.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
-	@echo ... palindrome.obj
-	@echo ... palindrome.i
-	@echo ... palindrome.s
+	@echo ... fibonacci.obj
+	@echo ... fibonacci.i
+	@echo ... fibonacci.s
 .PHONY : help
 
 

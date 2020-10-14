@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "C.exe"
   "C.exe.manifest"
   "C.pdb"
-  "CMakeFiles/C.dir/palindrome.c.obj"
+  "CMakeFiles/C.dir/fibonacci.c.obj"
   "libC.dll.a"
 )
 
