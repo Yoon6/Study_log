@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Yoon/Study_log/C/fibonacci.c
+C:/Users/Yoon/Study_log/C/chapter6_20.c
 stdio.h
+-
+stdlib.h
 -
 

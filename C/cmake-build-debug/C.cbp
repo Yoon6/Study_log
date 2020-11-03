@@ -74,7 +74,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Yoon/Study_log/C/fibonacci.c">
+		<Unit filename="C:/Users/Yoon/Study_log/C/chapter6_20.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="C:/Users/Yoon/Study_log/C/chapter6_22.c">
 			<Option target="C"/>
 		</Unit>
 		<Unit filename="C:/Users/Yoon/Study_log/C/CMakeLists.txt">

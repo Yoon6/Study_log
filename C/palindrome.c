@@ -50,21 +50,14 @@ int pop(Stacktype* s) {
 
 }
 
-int peek(Stacktype* s){
-    if(is_empty(s)) {
-        error("스택 공백 에러");
-        return 0;
+void see_stack(Stacktype* s){
+    int i=0;
+    printf("{ ");
+    while(i<=s->top){
+        printf("%c, ", s->stack[i]);
+        i++;
     }
-    else{
-        return s->stack[s->top];
-    }
-}
-
-int size(Stacktype* s){
-    if(is_empty(s))
-        return 0;
-    else
-        return s->top+1;
+    printf(" } \n");
 }
 
 int main(void) {
@@ -83,6 +76,9 @@ int main(void) {
         }else if(input[i]>='A'&&input[i]<='Z'){
             push(&s, input[i]+32);
         }
+
+        see_stack(&s);
+
         i++;
     }
 
@@ -94,11 +90,17 @@ int main(void) {
     while (!is_empty(&s)){
         save_string[i]=pop(&s);
         push(&reverse, save_string[i]);
+
+        see_stack(&s);
+
         i++;
     }
 
     i=0;
     while (!is_empty(&reverse)){
+
+        see_stack(&reverse);
+
         if(save_string[i]!=pop(&reverse)){
             printf("회문이 아닙니다.");
             break;

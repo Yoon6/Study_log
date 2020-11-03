@@ -14,4 +14,16 @@ add_executable(C
         #palindrome.c
         #circular_queue_8.c
         #stack_to_queue.c
-        fibonacci.c)
+        #fibonacci.c
+        #palindrome_dequeue.c
+        #test_No2.c
+        #test_No3.c
+        #test_No4.c
+        #chapter6_9.c
+        #chapter6_10.c
+        #chapter6_11.c
+        #chapter6_14.c
+        #chapter6_16.c
+        #chapter6_18.c
+        #chapter6_20.c
+        chapter6_22.c)

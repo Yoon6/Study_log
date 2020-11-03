@@ -40,25 +40,39 @@ element dequeue(QueueTypes *q){
     return q->data[q->front];
 }
 
+element peek(QueueTypes* q){
+    if(is_empty(q)){
+        printf("큐 공백 에러");
+    }
+    return q->data[(q->front+1)%MAX_QUEUE_SIZE];
+}
+
+element fibonacci(QueueTypes* q, element n){
+    if(n==0){
+        return 0;
+    }else if(n==1){
+        return 1;
+    }
+    else{
+        for(int i=2; i<=n; i++){
+            element tmp = dequeue(q)+peek(q);
+            enqueue(q, tmp);
+        }
+        dequeue(q);
+        return dequeue(q);
+    }
+}
+
 int main(void){
     QueueTypes queue;
-    element ele=0;
     init_queue(&queue);
 
+    int n=9;
+    enqueue(&queue, 0);
+    enqueue(&queue, 1);
 
-    printf("----데이터 추가----\n");
+    printf("fibonacci(%d) = %d", n, fibonacci(&queue, n));
 
-    while(!is_full(&queue)){
-        printf("점수를 입력하시오 :");
-        scanf("%d", &ele);
-        enqueue(&queue, ele);
-    }
 
-    printf("큐는 포화상태 \n");
-    printf("----데이터 삭제----\n");
-
-    while(!is_empty(&queue)){
-        printf("%d\n", dequeue(&queue));
-    }
     return 0;
 }

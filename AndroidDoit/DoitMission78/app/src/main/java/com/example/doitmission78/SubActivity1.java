@@ -15,7 +15,6 @@ public class SubActivity1 extends AppCompatActivity {
     }
 
     public void gotoMenuClicked(View view) {
-        Intent intent = new Intent()
     }
 
     public void gotoLoginClicked(View view) {
