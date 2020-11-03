@@ -14,5 +14,5 @@ val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
 
 fun getPattern(): String = """\d{2} ${month} \d{4}"""
 
-fun a(){}
-fun b(){}
+fun a(deploy : Int){}
+fun b(deploy : Int){}
