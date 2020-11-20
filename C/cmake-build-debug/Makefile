@@ -142,59 +142,32 @@ C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-chapter6_20.obj: chapter6_20.c.obj
+chap8_5.obj: chap8_5.c.obj
 
-.PHONY : chapter6_20.obj
-
-# target to build an object file
-chapter6_20.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chapter6_20.c.obj
-.PHONY : chapter6_20.c.obj
-
-chapter6_20.i: chapter6_20.c.i
-
-.PHONY : chapter6_20.i
-
-# target to preprocess a source file
-chapter6_20.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chapter6_20.c.i
-.PHONY : chapter6_20.c.i
-
-chapter6_20.s: chapter6_20.c.s
-
-.PHONY : chapter6_20.s
-
-# target to generate assembly for a file
-chapter6_20.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chapter6_20.c.s
-.PHONY : chapter6_20.c.s
-
-chapter6_22.obj: chapter6_22.c.obj
-
-.PHONY : chapter6_22.obj
+.PHONY : chap8_5.obj
 
 # target to build an object file
-chapter6_22.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chapter6_22.c.obj
-.PHONY : chapter6_22.c.obj
+chap8_5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap8_5.c.obj
+.PHONY : chap8_5.c.obj
 
-chapter6_22.i: chapter6_22.c.i
+chap8_5.i: chap8_5.c.i
 
-.PHONY : chapter6_22.i
+.PHONY : chap8_5.i
 
 # target to preprocess a source file
-chapter6_22.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chapter6_22.c.i
-.PHONY : chapter6_22.c.i
+chap8_5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap8_5.c.i
+.PHONY : chap8_5.c.i
 
-chapter6_22.s: chapter6_22.c.s
+chap8_5.s: chap8_5.c.s
 
-.PHONY : chapter6_22.s
+.PHONY : chap8_5.s
 
 # target to generate assembly for a file
-chapter6_22.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chapter6_22.c.s
-.PHONY : chapter6_22.c.s
+chap8_5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap8_5.c.s
+.PHONY : chap8_5.c.s
 
 # Help Target
 help:
@@ -205,12 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
-	@echo ... chapter6_20.obj
-	@echo ... chapter6_20.i
-	@echo ... chapter6_20.s
-	@echo ... chapter6_22.obj
-	@echo ... chapter6_22.i
-	@echo ... chapter6_22.s
+	@echo ... chap8_5.obj
+	@echo ... chap8_5.i
+	@echo ... chap8_5.s
 .PHONY : help
 
 

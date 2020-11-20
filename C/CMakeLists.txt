@@ -26,4 +26,16 @@ add_executable(C
         #chapter6_16.c
         #chapter6_18.c
         #chapter6_20.c
-        chapter6_22.c)
+        #chapter6_22.c
+        #chapter7_1.c
+        #chapter7_2.c
+        #chapter7_3.c
+        #chapter7_exam_3.c
+        #chapter7_0.c
+        #chapter7_exam_6.c
+        #system_programming/macro1.c
+        #chap8_1.c
+        #chap8_2.c
+        #chap8_4.c)
+        #chap8_3.c)
+        chap8_5.c)
