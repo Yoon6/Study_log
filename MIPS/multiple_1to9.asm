@@ -47,3 +47,5 @@
 			addi $t1, $zero, 1
 			
 			blt $t0, 10, run
+		li $v0, 10
+		syscall

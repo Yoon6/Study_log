@@ -142,32 +142,32 @@ C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-mips/stack.obj: mips/stack.c.obj
+chap9_16.obj: chap9_16.c.obj
 
-.PHONY : mips/stack.obj
+.PHONY : chap9_16.obj
 
 # target to build an object file
-mips/stack.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/mips/stack.c.obj
-.PHONY : mips/stack.c.obj
+chap9_16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap9_16.c.obj
+.PHONY : chap9_16.c.obj
 
-mips/stack.i: mips/stack.c.i
+chap9_16.i: chap9_16.c.i
 
-.PHONY : mips/stack.i
+.PHONY : chap9_16.i
 
 # target to preprocess a source file
-mips/stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/mips/stack.c.i
-.PHONY : mips/stack.c.i
+chap9_16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap9_16.c.i
+.PHONY : chap9_16.c.i
 
-mips/stack.s: mips/stack.c.s
+chap9_16.s: chap9_16.c.s
 
-.PHONY : mips/stack.s
+.PHONY : chap9_16.s
 
 # target to generate assembly for a file
-mips/stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/mips/stack.c.s
-.PHONY : mips/stack.c.s
+chap9_16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap9_16.c.s
+.PHONY : chap9_16.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
-	@echo ... mips/stack.obj
-	@echo ... mips/stack.i
-	@echo ... mips/stack.s
+	@echo ... chap9_16.obj
+	@echo ... chap9_16.i
+	@echo ... chap9_16.s
 .PHONY : help
 
 

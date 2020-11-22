@@ -4,6 +4,7 @@ array: .space 100
 str:  .asciiz "  "
 
 .text
+
 main:
 	addi $v0, $zero, 5
 	syscall
@@ -61,7 +62,7 @@ L2:
 	j L2
 	
 ProgramExit:
-	jr $31
+	jr $ra
 
 
 QuickSort:

@@ -8,7 +8,7 @@
 	newLine: .asciiz "\n"
 .text
 	main:
-		addi $s1, $zero, 0 	# $t0 == 인덱스
+		addi $s1, $zero, 0 	# $s1 == 인덱스
 		lw $s0, top 		# $s0 == top 포인터 
 		
 			

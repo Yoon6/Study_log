@@ -47,7 +47,6 @@ value: .asciiz "value : "
 		syscall # Exit
 	
 	saveInput:
-		
 		sw $a1, array($s7)
 		addi $s7, $s7, 4		# index += 4
 		addi $s6, $s6, 1		# count++
@@ -56,8 +55,6 @@ value: .asciiz "value : "
 		jr $ra
 		
 	print:
-		
-		
 		addi $t0, $zero, 0 			# int i
 		
 	
@@ -108,97 +105,68 @@ value: .asciiz "value : "
 	
 
 
-	partition: 			#partition method
+partition: 			#partition method
 
-		addi $sp, $sp, -16	#Make room for 5
+	addi $sp, $sp, -16	#Make room for 5
 
-		sw $a0, 0($sp)		#store a0
-		sw $a1, 4($sp)		#store a1
-		sw $a2, 8($sp)		#store a2
-		sw $ra, 12($sp)		#store return address
-		
-		move $s1, $a1		#s1 = low
-		move $s2, $a2		#s2 = high
-		
-		mul $t1, $s1, 4
-		lw $t2, 0($t1) 		# t2=array[low] | pivot=array[low]
-		
+	sw $a0, 0($sp)		#store a0
+	sw $a1, 4($sp)		#store a1
+	sw $a2, 8($sp)		#store a2
+	sw $ra, 12($sp)		#store return address
 	
-		#sll $t1, $s2, 2		# t1 = 4*high
-		#add $t1, $a0, $t1	# t1 = arr + 4*high
-		#lw $t2, 0($t1)		# t2 = arr[high] //pivot = array[high(right)]
-		
-		addi $t3, $s1, 1 	# i=low+1
-		addi $t4, $s2, 0 	# j=high
-	
-		#addi $t3, $s1, -1 	#t3, i=low -1
-		#move $t4, $s1		#t4, j=low
-		#addi $t5, $s2, -1	#t5 = high - 1		
-	
-		forloop: 
-		
-			bge $t3, $t4, endfor 	# i>=j -> endfor == while(i<j)
-			
-			#slt $t6, $t5, $t4	#t6=1 if j>high-1, t6=0 if j<=high-1
-			#bne $t6, $zero, endfor	#if t6=1 then branch to endfor
-			
-			while1:
-				sll $t1, $t4, 2		# t1=4*j
-				lw $t5, 0($t1) 		# t5=array[4*j]
-				bge $t2, $t5, end1	# while(privot<array[j])
-				
-				subi $t4, $t4, 1
-					
-			end1:
-				
-			
-			while2:
-				sll $t1, $t3, 2		# t1=4*i
-				lw $t6, 0($t1) 		# t6=array[4*i]
-				bgt $t3, $t4, and 	# if(i>=j
-				and:
-				blt $t2, $t6, end2	# && pivot<array[i]) -> end2						
-				
-				addi $t3, $t3, 1
-			
-			end2:
-			move $a1, $t3		#a1 = i
-			move $a2, $t4		#a2 = j
-			jal swap		#swap(arr, i, j)
-				
-				
-	
-			#sll $t1, $t4, 2		#t1 = j*4
-			#add $t1, $t1, $a0	#t1 = arr + 4j
-			#lw $t7, 0($t1)		#t7 = arr[j]
-	
-			#slt $t8, $t2, $t7	#t8 = 1 if pivot < arr[j], 0 if arr[j]<=pivot
-			#bne $t8, $zero, endfif	#if t8=1 then branch to endfif
-			#addi $t3, $t3, 1	#i=i+1
-	
-			#move $a1, $t3		#a1 = i
-			#move $a2, $t4		#a2 = j
-			#jal swap		#swap(arr, i, j)
-			
-			#addi $t4, $t4, 1	#j++
-			#j forloop
-	
-		    	#endfif:
-			#addi $t4, $t4, 1	#j++
-			#j forloop		#junp back to forloop
-	
-		endfor:
+	move $s1, $a1		#s1 = low
+	move $s2, $a2		#s2 = high
 
-			move $a2, $t4			#a2 = high
-			jal swap			#swap(arr, i + 1, high);
-			
-			add $v0, $zero, $t4		#v0 = i return (high);
-	
-			lw $ra, 12($sp)			#return address
-			addi $sp, $sp, 16		#restore the stack
-			jr $ra				#junp back to the caller
+	sll $t1, $s2, 2		# t1 = 4*high
+	add $t1, $a0, $t1	# t1 = arr + 4*high
+	lw $s5, 0($t1)		# t2 = arr[high] //pivot
+
+	addi $t3, $s1, -1	#t3, i=low -1
+	move $t4, $s1		#t4, j=low
+	addi $t5, $s2, -1	#t5 = high - 1
+
+	forloop: 
+		#slt $t6, $t5, $t4	#t6=1 if j>high-1, t6=0 if j<=high-1
+		#bne $t6, $zero, endfor	#if t6=1 then branch to endfor
+		
+		bgt $t4, $t5, endfor
+
+
+		sll $t1, $t4, 2		#t1 = j*4
+		add $t1, $t1, $a0	#t1 = arr + 4j
+		lw $t7, 0($t1)		#t7 = arr[j]
+
+		#slt $t8, $t2, $t7	#t8 = 1 if pivot < arr[j], 0 if arr[j]<=pivot
+		#bne $t8, $zero, endfif	#if t8=1 then branch to endfif
+		
+		bgt $t7, $s5, endfif
+		
+		addi $t3, $t3, 1	#i=i+1
+
+		move $a1, $t3		#a1 = i
+		move $a2, $t4		#a2 = j
+		jal swap		#swap(arr, i, j)
+		
+		#addi $t4, $t4, 1	#j++
+		#j forloop
+
+	  	endfif:
+		addi $t4, $t4, 1	#j++
+		j forloop		#junp back to forloop
+
+	endfor:
+		addi $a1, $t3, 1		#a1 = i+1
+		move $a2, $s2			#a2 = high
+		jal swap			#swap(arr, i + 1, high);
+		
+		add $v0, $zero, $a1		#v0 = i+1 return (i + 1);
+
+		lw $ra, 12($sp)			#return address
+		addi $sp, $sp, 16		#restore the stack
+		jr $ra				#junp back to the caller
 	
 	quicksort:				#quicksort method
+	
 	
 		addi $sp, $sp, -16		# Make room for 4
 

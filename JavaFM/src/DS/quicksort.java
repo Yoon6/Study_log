@@ -1,5 +1,7 @@
 package DS;
 
+import java.util.Scanner;
+
 public class quicksort {
     private static void quickSort(int[] arr){
         quickSort(arr, 0, arr.length-1);
@@ -38,7 +40,21 @@ public class quicksort {
         System.out.println();
     }
     public static void main(String[] args){
-        int[] arr={3,9,4,7,5,0,1,6,8,2};
+        int[] arr=new int[10];
+        int count=0;
+
+        Scanner sc = new Scanner(System.in);
+        for(int i=0; i<10; i++){
+            System.out.print("value :");
+            int input = sc.nextInt();
+            arr[i]=input;
+            count++;
+
+            quickSort(arr, 0, count);
+            printArray(arr);
+
+        }
+
         printArray(arr);
         quickSort(arr);
         printArray(arr);

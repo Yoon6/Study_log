@@ -39,4 +39,8 @@ add_executable(C
         #chap8_4.c)
         #chap8_3.c)
         #chap8_5.c
-        mips/stack.c)
+        #mips/stack.c
+        #chap9_11.c
+        #chap9_14.c
+        #chap9_15.c
+        chap9_16.c)
