@@ -45,17 +45,17 @@
 		jr $ra
 		
 	print:
-		addi $t0, $zero, 0 			# int i
+		addi $t0, $s7, -4 			# int i
 		
 	
 		while_print:
-			beq $t0, $s7, exit_print 	# 인덱스와 스택의 개수가 같으면 탈출 
+			blt $t0, 0, exit_print 	# 인덱스와 스택의 개수가 같으면 탈출 
 			
 			li $v0, 1
 			lw $a0, array($t0)
 			syscall 			# 배열 출력
 			
-			addi $t0, $t0, 4 		# 인덱스값 갱신 
+			subi $t0, $t0, 4 		# 인덱스값 갱신 
 			
 			li $v0, 4
 			la $a0, space
