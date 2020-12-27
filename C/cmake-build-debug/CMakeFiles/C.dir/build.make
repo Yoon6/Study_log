@@ -76,27 +76,27 @@ include CMakeFiles/C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C.dir/flags.make
 
-CMakeFiles/C.dir/chap9_16.c.obj: CMakeFiles/C.dir/flags.make
-CMakeFiles/C.dir/chap9_16.c.obj: ../chap9_16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Yoon\Study_log\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C.dir/chap9_16.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C.dir\chap9_16.c.obj   -c C:\Users\Yoon\Study_log\C\chap9_16.c
+CMakeFiles/C.dir/DS/real_final/no1.c.obj: CMakeFiles/C.dir/flags.make
+CMakeFiles/C.dir/DS/real_final/no1.c.obj: ../DS/real_final/no1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Yoon\Study_log\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C.dir/DS/real_final/no1.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C.dir\DS\real_final\no1.c.obj   -c C:\Users\Yoon\Study_log\C\DS\real_final\no1.c
 
-CMakeFiles/C.dir/chap9_16.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C.dir/chap9_16.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Yoon\Study_log\C\chap9_16.c > CMakeFiles\C.dir\chap9_16.c.i
+CMakeFiles/C.dir/DS/real_final/no1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C.dir/DS/real_final/no1.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Yoon\Study_log\C\DS\real_final\no1.c > CMakeFiles\C.dir\DS\real_final\no1.c.i
 
-CMakeFiles/C.dir/chap9_16.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C.dir/chap9_16.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Yoon\Study_log\C\chap9_16.c -o CMakeFiles\C.dir\chap9_16.c.s
+CMakeFiles/C.dir/DS/real_final/no1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C.dir/DS/real_final/no1.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Yoon\Study_log\C\DS\real_final\no1.c -o CMakeFiles\C.dir\DS\real_final\no1.c.s
 
 # Object files for target C
 C_OBJECTS = \
-"CMakeFiles/C.dir/chap9_16.c.obj"
+"CMakeFiles/C.dir/DS/real_final/no1.c.obj"
 
 # External object files for target C
 C_EXTERNAL_OBJECTS =
 
-C.exe: CMakeFiles/C.dir/chap9_16.c.obj
+C.exe: CMakeFiles/C.dir/DS/real_final/no1.c.obj
 C.exe: CMakeFiles/C.dir/build.make
 C.exe: CMakeFiles/C.dir/linklibs.rsp
 C.exe: CMakeFiles/C.dir/objects1.rsp

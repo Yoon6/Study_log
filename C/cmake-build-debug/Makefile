@@ -142,32 +142,32 @@ C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-chap9_16.obj: chap9_16.c.obj
+DS/real_final/no1.obj: DS/real_final/no1.c.obj
 
-.PHONY : chap9_16.obj
+.PHONY : DS/real_final/no1.obj
 
 # target to build an object file
-chap9_16.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap9_16.c.obj
-.PHONY : chap9_16.c.obj
+DS/real_final/no1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/DS/real_final/no1.c.obj
+.PHONY : DS/real_final/no1.c.obj
 
-chap9_16.i: chap9_16.c.i
+DS/real_final/no1.i: DS/real_final/no1.c.i
 
-.PHONY : chap9_16.i
+.PHONY : DS/real_final/no1.i
 
 # target to preprocess a source file
-chap9_16.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap9_16.c.i
-.PHONY : chap9_16.c.i
+DS/real_final/no1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/DS/real_final/no1.c.i
+.PHONY : DS/real_final/no1.c.i
 
-chap9_16.s: chap9_16.c.s
+DS/real_final/no1.s: DS/real_final/no1.c.s
 
-.PHONY : chap9_16.s
+.PHONY : DS/real_final/no1.s
 
 # target to generate assembly for a file
-chap9_16.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/chap9_16.c.s
-.PHONY : chap9_16.c.s
+DS/real_final/no1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/DS/real_final/no1.c.s
+.PHONY : DS/real_final/no1.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
-	@echo ... chap9_16.obj
-	@echo ... chap9_16.i
-	@echo ... chap9_16.s
+	@echo ... DS/real_final/no1.obj
+	@echo ... DS/real_final/no1.i
+	@echo ... DS/real_final/no1.s
 .PHONY : help
 
 

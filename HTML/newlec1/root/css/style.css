@@ -1,0 +1,21 @@
+@import url(reset.css);
+
+#header{
+    height: 70px;
+    background: yellow;
+}
+
+#visual{
+    height: 171px;
+    background: green;
+}
+
+#body{
+    height: 300px;
+    background: red;
+}
+
+#footer{
+    height: 100px;
+    background: gray;
+}

@@ -1,0 +1,5 @@
+1	MOVES   MACRO   X,Y,Z
+2			MOV		AX,#0
+3			MOV		BX,#1
+4			MOV		CX,#2
+5			ENDM

@@ -1,0 +1,11 @@
+MOVES   MACRO   X,Y,Z
+        MOV     AX,X
+        MOV     BX,Y
+        MOV     CX,Z
+        ENDM
+MAIN    SEGMENT
+        MOVES   1,2,3
+        MOV     AH,4CH
+        INT     21H
+MAIN    ENDS
+        END

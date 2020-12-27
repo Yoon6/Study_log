@@ -36,11 +36,49 @@ add_executable(C
         #system_programming/macro1.c
         #chap8_1.c
         #chap8_2.c
-        #chap8_4.c)
-        #chap8_3.c)
+        #chap8_4.c
+        #chap8_3.c
         #chap8_5.c
         #mips/stack.c
         #chap9_11.c
         #chap9_14.c
         #chap9_15.c
-        chap9_16.c)
+        #chap9_16.c
+        #DS/chap9/heap1.c
+        #DS/chap9/huffman.c
+        #DS/chap10/adj_mat.c
+        #DS/chap10/adj_list.c
+        #DS/chap10/dfs_adj_mat.c
+        #DS/chap10/dfs_adj_list.c
+        #DS/chap10/bfs_adj_mat.c
+        #DS/chap10/bfs_adj_list.c
+        #DS/chap10/adj_mat2.c
+        #DS/chap10/adj_list2.c
+        #DS/chap10/adj_mat3.c
+        #DS/chap10/adj_mat4.c
+        #DS/chap11/kruskal1.c
+        #DS/chap11/prim1.c
+        #DS/chap11/dijkstra1.c
+        #DS/chap11/floyd1.c
+        #DS/chap11/floyd2.c
+        #DS/chap11/dijkstra2.c
+        #DS/chap11/topological1.c
+        #DS/finalTest/simple_LinkedList1.c
+        #DS/finalTest/simple_LinkedList_poly.c
+        #DS/finalTest/circle_LinkedList1.c
+        #DS/finalTest/double_LinkedList.c
+        #DS/finalTest/LinkedList_Stack.c
+        #DS/finalTest/LinkedList_Queue.c
+        #DS/finalTest/BinaryTree1.c
+        #DS/finalTest/BinarySearchTree.c
+        #DS/finalTest/BinaryTree_traversal.c
+        #DS/finalTest/BinaryTree_levelorder.c
+        #DS/finalTest/BinaryTree_evaluate.c
+        #DS/chap11/topo_sort.c
+        #DS/chap9/heap2.c
+        DS/real_final/no1.c
+        #DS/real_final/no2.c
+        #DS/real_final/no3.c
+        #DS/real_final/no4.c
+        #DS/real_final/no5.c
+        )

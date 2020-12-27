@@ -1,0 +1,6 @@
+MAIN    SEGMENT
+        MOVES   1,2,3
+        MOV     AH,4CH
+        INT     21H
+MAIN    ENDS
+        END
